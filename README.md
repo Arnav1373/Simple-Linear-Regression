@@ -1,10 +1,10 @@
-Simple Linear Regression Project
+#Simple Linear Regression Project
 Modelling the linear relationship between head size and brain weight of different users.
        
 
-The contents of this project are divided into following topics which are listed as follows:-
+# The contents of this project are divided into following topics which are listed as follows:-
 
-Table of Contents
+## Table of Contents
 1. Introduction
 2. Linear Regression
 3. Independent and dependent variable
@@ -16,17 +16,17 @@ Table of Contents
 9. References
        
 
-1. Introduction
+## 1. Introduction
 In this project, I build a Simple Linear Regression model to predict the relationship between the head size and the brain weight of different users. I discuss the basics of linear regression and its implementation in Python programming language using Scikit-learn. Scikit-learn is the popular machine learning library of Python programming language.
 
        
 
-2. Linear Regression
+## 2. Linear Regression
 Linear Regression is a statistical technique which is used to find the linear relationship between dependent and one or more independent variables. This technique is applicable for Supervised Learning Regression problems where we try to predict a continuous variable. Linear Regression can be further classified into two types – Simple and Multiple Linear Regression.
 
        
 
-3. Independent and Dependent Variables
+## 3. Independent and Dependent Variables
 In this project, I refer Independent variable as Feature variable and Dependent variable as Target variable. These variables are also recognized by different names as follows: -
 
 Independent variable
@@ -39,7 +39,7 @@ Dependent or Output variable (y) = Target variable = Response variable
 
        
 
-4. Simple Linear Regression (SLR)
+## 4. Simple Linear Regression (SLR)
 Simple Linear Regression (or SLR) is the simplest model in machine learning. It models the linear relationship between the independent and dependent variables.
 
 In this project, there is one independent or input variable which is denoted by X. Similarly, there is one dependent or output variable which is denoted by y. We want to build a linear relationship between these variables. This linear relationship can be modelled by mathematical equation of the form:-
@@ -58,7 +58,7 @@ intercept of the line by b = c.
 
 In this Simple Linear Regression model, we want to fit a line which estimates the linear relationship between X and Y. So, the question of fitting reduces to estimating the parameters of the model m and c.
 
-5. About the dataset
+## 5. About the dataset
 The data set has been imported from the econometrics website with the following url-
 
 https://www.kaggle.com/datasets/jemishdonda/headbrain
@@ -67,17 +67,17 @@ This data set contains Sales and Advertising expenditures for a dietary weight c
 
        
 
-6. Exploratory data analysis
+## 6. Exploratory data analysis
 First, I import the dataset into the dataframe with the standard read_csv () function of pandas library and assign it to the df variable. Then, I conducted exploratory data analysis to get a feel for the data. I checked the dimensions of dataframe with the shape attribute of the dataframe. I viewed the top 5 rows of the dataframe with the pandas head() method. I viewed the dataframe summary with the pandas info() method and descriptive statistics with the describe() method.
 
        
 
-7. Mechanics of Simple Linear Regression
+## 7. Mechanics of Simple Linear Regression
 The mechanics of Simple Linear Regression model starts with splitting the dataset into two sets – the training set and the test set. We instantiate the regressor lm and fit it on the training set with the fit method. In this step, the model learned the correlations between the training data (X_train, y_train). Now the model is ready to make predictions on the test data (X_test). Hence, I predict on the test data using the predict method.
 
        
 
-8. Regression metrics for model performance
+## 8. Regression metrics for model performance
 Now, it is the time to evaluate model performance. For regression problems, there are two ways to compute the model performance. They are RMSE (Root Mean Square Error) and R-Squared Value. These are explained below:-
 
 i. RMSE
@@ -92,7 +92,7 @@ In general, the higher the R2 Score value, the better the model fits the data. U
 
        
 
-9. References
+## 9. References
 The concepts and ideas in this project have been taken from the following websites and books:-
 
 i. Machine learning notes by Andrew Ng
