@@ -1,5 +1,5 @@
 Simple Linear Regression Project
-Modelling the linear relationship between Sales and Advertising Dataset
+Modelling the linear relationship between head size and brain weight of different users.
        
 
 The contents of this project are divided into following topics which are listed as follows:-
