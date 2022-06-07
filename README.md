@@ -1,4 +1,4 @@
-#Simple Linear Regression Project
+# Simple Linear Regression Project
 Modelling the linear relationship between head size and brain weight of different users.
        
 
